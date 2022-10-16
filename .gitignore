@@ -1,0 +1,5 @@
+# Ignora los módilos de NODE
+/node_modules
+
+# Ignora las variables de entorno
+.env
