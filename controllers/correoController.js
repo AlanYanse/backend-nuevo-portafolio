@@ -23,9 +23,9 @@ const envioCorreo = (req=request, resp=response) =>{
 
     const opciones = {
 
-        from: "Portafolio",
-        subject: body.asunto,
-        to: body.email,
+        from: body.email,
+        subject: "Mensaje desde el portafolio",
+        to: usuario,
         text: body.mensaje
     }
 
